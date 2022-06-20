@@ -1,0 +1,252 @@
+.item-3 div {
+    padding-left: 50px;
+    font-size: 16px;
+}
+.item-3 {
+    text-align: left;
+    }
+.navbar-nav,.nav-link
+	{
+    text-transform: uppercase;
+    border-bottom: 2px solid rgba(0,0,0,0);
+}
+
+.nav-link:hover{
+	border-top: 4px solid grey;
+}
+.carousel-item
+{
+height:  650px;
+}
+@media screen and (max-width: 1000px) {
+  .carousel-item
+{
+height:  350px;
+}
+}
+.button1{
+	width: 200px;
+	height: 50px;
+	background-color: #6aaf08;
+	color: black;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 300px;
+	font-style: italic;
+}
+.button2{
+	width: 200px;
+	height: 50px;
+	background-color: darkgrey;
+	color: black;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 600px;
+	font-style: italic;
+}
+@media screen and (max-width: 1000px) {
+  .button1 {
+    width: 100px;
+	height: 50px;
+	margin-top: 200px;
+	margin-left: 60px;
+  }
+}
+.button1:hover{
+	
+	height: 60px;
+	background-color: darkgrey;
+	color: black;
+
+}
+.button2:hover{
+	
+	height: 60px;
+	background-color:#6aaf08 ;
+	color: black;
+}
+@media screen and (max-width: 1000px) {
+  .button2 {
+    width: 100px;
+	height: 50px;
+	margin-top: 200px;
+	margin-left: 180px;
+  }
+}
+.contain{	
+	height: 900px;
+	width: 100%;
+    background: linear-gradient(to bottom, #F2F2F2  20%,#FFFFFF 70%);
+	
+}
+.aboutsection{
+	text-align: center;
+	color:black ;
+	font-weight: bold;
+	font-size: 30px;	
+}
+.solid{
+  border-top: 3px solid red;
+  width: 130px;
+ margin-left: 565px;
+ margin-top: -10px;
+}
+.contain2{
+	width: 100%
+	height:60px;
+
+
+}
+.contain2title{
+	color:#6aaf08 ;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.paragraph{
+	text-align: center;
+	width: 950px;
+	margin-left: 150px;
+}
+.paragraphbutton{
+	width: 160px;
+	height: 50px;
+	background-color: #f47c38;
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	border: none;
+	border-radius: 4px;
+	margin-left: 540px;
+}
+.aboutimage{
+	width: 80%;
+	height: 200px;
+	margin-left: 10%;
+}
+.intro{
+	width: 100%;
+	height: 400px;
+	background-color: #383838;
+
+}
+.introimg{
+	margin-top: 30px;
+	margin-left: 80px;
+	box-shadow: 2px grey;
+    border-radius: 200px;
+}
+.introtext{
+	margin-top: -250px;
+	margin-left: 470px;
+	
+	color: white;
+	font-size: 25px;
+	font-family: Helvetica, sans-serif;
+}
+.introtext1{
+	margin-left: 470px;
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
+	font-family: Helvetica, sans-serif;
+}
+.introtext2{
+	color: #f47c38;
+	margin-left: 470px;
+	font-size: 15px;
+	font-family: Helvetica, sans-serif;
+	margin-top: -10px;
+}
+.contain3{
+	height: 750px;
+	background: linear-gradient(to bottom, #F2F2F2  20%,#FFFFFF 70%);
+	background-size: 100%;
+    opacity: 3.0;
+    overflow: hidden;
+}
+
+	.box1{
+		box-shadow: 0 4px 8px black;
+		height: 400px;
+		width: 300px;
+	margin-top: 100px;
+	margin-left: 40px;
+	transition: transform .2s;
+	}
+	.box1:hover {
+
+  transform: scale(1.1); 
+}
+			.content{
+			color: black;
+			font-size: 15px;
+			margin-top: -150px;
+			text-align: center;
+			
+		}
+		.size{
+			width: 150px;
+			color: grey;
+			background-color: green;
+
+		}
+		.size:hover{
+			background-color: grey;
+			color: black;
+			font-size: 20px;
+		}
+		.card button{
+			
+			border: none;
+			float: top;
+			color: white;
+			background-color: black;
+			text-align: center;
+			cursor: pointer;
+			width: 100%;
+			font-size: 15px;
+		}
+	.box2{
+		box-shadow: 0 4px 8px black;
+		height: 400px;
+		width: 300px;
+	margin-left: 480px;
+	float: center;
+	margin-top: -400px;
+	transition: transform .2s;
+	}
+	.box2:hover{
+			  transform: scale(1.1); 
+		}
+	.box3{
+		box-shadow: 0 4px 8px black;
+		height: 400px;
+		width: 300px;
+	margin-right: 40px;
+	float: right;
+	margin-top: -400px;
+	transition: transform .2s;
+	}
+	.box3:hover{
+			  transform: scale(1.1); 
+		}
+	.textbox{
+		margin-top: 65px;
+		height: 100px;
+		width: 600px;
+		margin-left: 300px;
+		border:solid;
+		border-top: dotted;
+		color: red; 
+		border-color: black;
+	}
+	.view{
+		text-align: center;
+		margin-top: 100px;
+	}
+	.view a{
+		text-decoration: none;
+		color: black;
+	}
